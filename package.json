@@ -1,12 +1,17 @@
 {
-  "name": "lampp-backend",
+  "name": "json-server-deploy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple json database to deploy to the host of your choice",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json"
+    "start": "node server.js"
   },
-  "author": "Pedro Benevides",
-  "license": "MIT"
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Jesper Orb",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.2"
+  }
 }
